@@ -4,6 +4,7 @@ package com.example.websocketdemo.model;
  * Creator : Tanvir Chowdhury
  * Date    : 2020-10-01
  */
+
 public class ChatMessage {
     private MessageType type;
     private String content;

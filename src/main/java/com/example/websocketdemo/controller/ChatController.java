@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
  * Creator : Tanvir Chowdhury
  * Date    : 2020-10-01
  */
+
 @Controller
 public class ChatController {
 

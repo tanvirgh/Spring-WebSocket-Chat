@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Creator : Tanvir Chowdhury
  * Date    : 2020-10-01
  */
+
 @RestController
 public class MessageController {
 
