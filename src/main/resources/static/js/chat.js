@@ -34,10 +34,11 @@ function registration() {
         connectToChat(userName);
     }).fail(function (error) {
         if (error.status === 400) {
-            alert("Login is already busy!")
+            alert("This user is already logged in!")
         }
     })
 }
+
 
 function selectUser(userName) {
     console.log("selecting users: " + userName);
@@ -51,6 +52,7 @@ function selectUser(userName) {
     $('#selectedUserId').html('');
     $('#selectedUserId').append('Chat with ' + userName);
 }
+
 
 function fetchAll() {
     $.get(url + "/fetchAllUsers", function (response) {

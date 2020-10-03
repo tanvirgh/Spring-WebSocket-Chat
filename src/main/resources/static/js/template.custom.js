@@ -37,7 +37,7 @@ function render(message, userName) {
 }
 
 function sendMessage(message) {
-    let username = $('#userName').val();
+    var username = $('#userName').val();
     console.log(username)
     sendMsg(username, message);
     scrollToBottom();
