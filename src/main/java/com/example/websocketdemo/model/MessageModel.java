@@ -8,6 +8,7 @@ package com.example.websocketdemo.model;
 public class MessageModel {
 
     private String message;
+
     private String fromLogin;
 
     public String getMessage() {
