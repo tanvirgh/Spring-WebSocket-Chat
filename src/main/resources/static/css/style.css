@@ -25,6 +25,7 @@ body {
 
 .people-list .search {
     padding: 20px;
+
 }
 
 .people-list input {
@@ -95,6 +96,7 @@ body {
 .chat .chat-header .chat-with {
     font-weight: bold;
     font-size: 16px;
+    color: #CC4017;
 }
 
 .chat .chat-header .chat-num-messages {
@@ -182,13 +184,13 @@ ul {
 
 .chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
     font-size: 16px;
-    color: gray;
+    color: #7a3880;
     cursor: pointer;
 }
 
 .chat .chat-message button {
     float: right;
-    color: #94C2ED;
+    color: #2132bb;
     font-size: 16px;
     text-transform: uppercase;
     border: none;
@@ -198,7 +200,7 @@ ul {
 }
 
 .chat .chat-message button:hover {
-    color: #75b1e8;
+    color: #bb212b;
 }
 
 .online, .offline, .me {
@@ -237,4 +239,32 @@ ul {
     content: " ";
     clear: both;
     height: 0;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left:5px;
+
+}
+
+.refresh {
+    background-color: #E38968;
+    border: 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left:5px;
+
 }

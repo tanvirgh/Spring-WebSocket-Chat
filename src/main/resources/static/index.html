@@ -18,19 +18,20 @@
 <div class="container clearfix">
     <div class="people-list" id="people-list">
         <div class="search">
-            <input id="userName" placeholder="search" type="text"/>
-            <button onclick="registration()">Enter the chat</button>
-            <button onclick="fetchAll()">Refresh</button>
+            <input id="userName" placeholder="search"  type="text"/>
+            <br/>
+
+            <button class="button"   onclick="registration()" >Enter the chat</button>
+            <button class="refresh" onclick="fetchAll()">Refresh</button>
         </div>
+
         <ul class="list" id="usersList">
-
-
         </ul>
     </div>
 
     <div class="chat">
         <div class="chat-header clearfix">
-            <img alt="avatar" height="55px"
+            <img alt="avatar" height="55px" class="fa-user"
                  src="https://rtfm.co.ua/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"
                  width="55px"/>
 
@@ -38,7 +39,7 @@
                 <div class="chat-with" id="selectedUserId"></div>
                 <div class="chat-num-messages"></div>
             </div>
-            <i class="fa fa-star"></i>
+            <i class="fa fa-star" style="background-color: #CC4017"></i>
         </div> <!-- end chat-header -->
 
         <div class="chat-history">
@@ -54,7 +55,7 @@
             <i class="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
             <i class="fa fa-file-image-o"></i>
 
-            <button id="sendBtn">Send</button>
+            <button id="sendBtn">Send<i class="fa fa-arrow"></i></button>
 
         </div> <!-- end chat-message -->
 
