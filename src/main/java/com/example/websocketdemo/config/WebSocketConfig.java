@@ -21,9 +21,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         registry.setApplicationDestinationPrefixes("/app").enableSimpleBroker("/topic");
-    }
 
-    //   Use this for enabling a Full featured broker like RabbitMQ
+        //   Use this for enabling a Full featured broker like RabbitMQ
 
         /*
         registry.enableStompBrokerRelay("/topic")
@@ -32,4 +31,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
                 .setClientLogin("guest")
                 .setClientPasscode("guest");
         */
+    }
+
+
 }
